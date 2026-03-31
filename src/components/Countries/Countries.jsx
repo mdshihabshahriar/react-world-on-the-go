@@ -21,8 +21,8 @@ const Countries = ({countriesPromise}) => {
     const countries = countriesData.countries
     return (
         <div>
-            <h1>All countries: {countries.length}</h1>
-            <h3>Total Visited Countries: {visitedCountries.length}</h3>
+            <h1>All Countries: {countries.length}</h1>
+            <h3>Total Country Visited: {visitedCountries.length}</h3>
             <h3>Total Flags Visited: {visitedFlags.length}</h3>
             <ol>
                 {
